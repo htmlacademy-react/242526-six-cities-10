@@ -1,5 +1,11 @@
-function App(): JSX.Element {
-  return <p>Hello, world!</p>;
+import Main from '../../pages/mian/main';
+
+type AppProps = {
+  placesFound: number
+}
+
+function App({ placesFound }: AppProps) {
+  return <Main placesFound={placesFound} />;
 }
 
 export default App;
