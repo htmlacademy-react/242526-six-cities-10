@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './components/app/app';
-
-const PLACES_FOUND = 312;
+import { PLACES_FOUND } from './const/const';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement,
